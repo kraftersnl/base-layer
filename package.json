@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-base-layer",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "postinstall": "nuxt prepare .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground"
+  },
+  "devDependencies": {
+    "nuxt": "^3.16.2",
+    "vue": "latest"
+  }
+}
