@@ -1,3 +1,5 @@
 <template>
-  <HelloWorld />
+  <div>
+    <BaseButton label="Click me" />
+  </div>
 </template>
